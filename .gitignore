@@ -1,4 +1,4 @@
 #igonre target directory
-target/
+.idea/
 #igonre *.iml
 *.iml
