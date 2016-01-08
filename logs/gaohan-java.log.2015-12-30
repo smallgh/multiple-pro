@@ -1,0 +1,31 @@
+"INFO 2015-12-30 11:13:10 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2015-12-30 11:13:10 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Wed Dec 30 11:13:10 CST 2015]; root of context hierarchy
+"INFO 2015-12-30 11:13:11 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2015-12-30 11:13:11 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2015-12-30 11:13:12 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2015-12-30 11:13:12 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Wed Dec 30 11:13:10 CST 2015]; root of context hierarchy
+"INFO 2015-12-30 11:13:12 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2015-12-30 11:13:12 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2015-12-30 11:13:13 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2015-12-30 11:13:13 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2015-12-30 11:13:13 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 3363 ms
+"INFO 2015-12-30 11:13:13 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2015-12-30 11:13:13 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Dec 30 11:13:13 CST 2015]; parent: Root WebApplicationContext
+"INFO 2015-12-30 11:13:13 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2015-12-30 11:13:14 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2015-12-30 11:13:14 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"DEBUG 2015-12-30 11:13:14 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2015-12-30 11:13:14 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2015-12-30 11:13:14 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2015-12-30 11:13:14 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2015-12-30 11:13:14 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2015-12-30 11:13:14 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy35
+"DEBUG 2015-12-30 11:13:14 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2015-12-30 11:13:14 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2015-12-30 11:13:15 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Dec 30 11:13:13 CST 2015]; parent: Root WebApplicationContext
+"INFO 2015-12-30 11:13:15 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Dec 30 11:13:13 CST 2015]; parent: Root WebApplicationContext
+"INFO 2015-12-30 11:13:16 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2015-12-30 11:13:16 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2015-12-30 11:13:16 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2015-12-30 11:13:16 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2015-12-30 11:13:16 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 2520 ms

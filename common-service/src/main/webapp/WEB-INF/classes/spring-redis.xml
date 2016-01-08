@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:cache="http://www.springframework.org/schema/cache"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache.xsd">
+
+    <!-- ###### REDIS ################################################## -->
+    <!-- 连接池初始化参数,参见 org.apache.commons.pool2.impl.GenericObjectPoolConfig 配置
+     http://commons.apache.org/proper/commons-pool/apidocs/org/apache/commons/pool2/impl/GenericObjectPoolConfig.html -->
+    <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <property name="maxTotal" value="600"/>
+        <property name="minIdle" value="1"/>
+        <property name="testOnBorrow" value="true"/>
+        <property name="maxWaitMillis" value="12000"/>
+        <property name="testWhileIdle" value="true"/>
+        <property name="minEvictableIdleTimeMillis" value="60000"/>
+        <property name="timeBetweenEvictionRunsMillis" value="30000"/>
+        <property name="numTestsPerEvictionRun" value="-1"/>
+    </bean>
+
+    <bean id="redisCachePool" class="redis.clients.jedis.JedisPool">
+        <constructor-arg index="0" ref="jedisPoolConfig"/>
+        <constructor-arg index="1" value="127.0.0.1"/>
+        <constructor-arg index="2" value="6379"/>
+        <constructor-arg index="3" value="10000"/>
+        <constructor-arg index="4" value="gaohan"/>
+    </bean>
+
+    <bean id="redisCacheService"
+          class="com.gaohan.common.service.redis.service.impl.SingleInstanceRedisServiceImpl">
+        <constructor-arg index="0" ref="redisCachePool"/>
+    </bean>
+
+    <bean id="redisCacheManager"
+          class="com.gaohan.common.service.cache.redis.RedisCacheManager">
+        <property name="caches">
+            <set>
+                <bean class="com.gaohan.common.service.cache.redis.RedisCache">
+                    <property name="redisCacheService" ref="redisCacheService"/>
+                    <property name="expireSeconds" value="100"/>
+                    <property name="name" value="redisCache"/>
+                </bean>
+            </set>
+        </property>
+    </bean>
+
+    <bean id="cacheManager" class="org.springframework.cache.support.CompositeCacheManager">
+        <property name="cacheManagers">
+            <list>
+                <ref bean="redisCacheManager"/>
+            </list>
+        </property>
+        <property name="fallbackToNoOpCache" value="true"/>
+    </bean>
+
+    <bean id="cacheFetchHelper" class="com.gaohan.common.service.cache.CacheFetchHelper">
+        <constructor-arg index="0" ref="redisCacheManager"/>
+    </bean>
+
+    <cache:annotation-driven cache-manager="cacheManager" proxy-target-class="true"/>
+
+
+</beans>

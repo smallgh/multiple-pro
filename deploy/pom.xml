@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>mutipleprogram-parent</artifactId>
+        <groupId>com.gaohan.mutipleprogram</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>deploy</artifactId>
+    <packaging>war</packaging>
+
+    <name>deploy</name>
+    <url>http://maven.apache.org</url>
+    <dependencies>
+        <dependency>
+            <groupId>com.gaohan.mutipleprogram</groupId>
+            <artifactId>common</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.gaohan.mutipleprogram</groupId>
+            <artifactId>common-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.gaohan.mutipleprogram</groupId>
+            <artifactId>dal</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.gaohan.mutipleprogram</groupId>
+            <artifactId>web-entrance</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.gaohan.mutipleprogram</groupId>
+            <artifactId>biz-personal</artifactId>
+        </dependency>
+    </dependencies>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <!--<build>
+        <finalName>mutipleProgram</finalName>
+
+        <plugins>
+            &lt;!&ndash;过滤Test&ndash;&gt;
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                    <testFailureIgnore>true</testFailureIgnore>
+                </configuration>
+            </plugin>
+            &lt;!&ndash; 该插件用于最后打包（*.tar.gz, *.zip 等格式） &ndash;&gt;
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>make-zip</id>
+                        &lt;!&ndash; 绑定到package生命周期阶段上 &ndash;&gt;
+                        <phase>package</phase>
+                        <goals>
+                            &lt;!&ndash; 绑定到package生命周期阶段上 &ndash;&gt;
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <appendAssemblyId>false</appendAssemblyId>
+                            <descriptors>
+                                <descriptor>src/main/assembly/daemon.xml</descriptor>
+                            </descriptors>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            &lt;!&ndash;解决idea自动改为jdk1.5编译&ndash;&gt;
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>-->
+
+</project>

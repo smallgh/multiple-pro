@@ -1,0 +1,1434 @@
+"INFO 2016-01-06 14:21:46 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-06 14:21:46 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Wed Jan 06 14:21:46 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 14:21:47 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-06 14:21:47 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-06 14:21:48 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-06 14:21:48 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Wed Jan 06 14:21:46 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 14:21:49 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-06 14:21:49 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-06 14:21:49 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-06 14:21:49 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2016-01-06 14:21:50 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 3743 ms
+"INFO 2016-01-06 14:21:50 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2016-01-06 14:21:50 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 14:21:50 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 14:21:50 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2016-01-06 14:21:50 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2016-01-06 14:21:51 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"DEBUG 2016-01-06 14:21:51 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2016-01-06 14:21:51 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2016-01-06 14:21:51 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2016-01-06 14:21:51 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2016-01-06 14:21:51 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2016-01-06 14:21:51 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy36
+"DEBUG 2016-01-06 14:21:51 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2016-01-06 14:21:51 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2016-01-06 14:21:52 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 14:21:50 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 14:21:52 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 14:21:50 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 14:21:52 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2016-01-06 14:21:52 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2016-01-06 14:21:52 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2016-01-06 14:21:52 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2016-01-06 14:21:52 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 2087 ms
+"INFO 2016-01-06 14:26:00 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-06 14:26:00 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Wed Jan 06 14:26:00 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 14:26:00 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-06 14:26:01 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-06 14:26:01 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-redis.xml]
+"INFO 2016-01-06 14:26:02 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-06 14:26:02 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Wed Jan 06 14:26:00 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 14:26:03 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-06 14:26:03 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-06 14:26:04 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-06 14:26:04 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"WARN 2016-01-06 14:26:05 ework.web.context.support.XmlWebApplicationContext(487) - Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personalInfoController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.gaohan.biz.module1.service.PersonalInfoService com.gaohan.web.controller.PersonalInfoController.personalInfoService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personalInfoServiceImpl' defined in file [D:\idea_workspace\MutipleProgram\biz-personal\src\main\webapp\WEB-INF\classes\com\gaohan\biz\module1\service\impl\PersonalInfoServiceImpl.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.interceptor.CacheInterceptor#0': Cannot resolve reference to bean 'cacheManager' while setting bean property 'cacheManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [spring-redis.xml]: Cannot resolve reference to bean 'redisCacheManager' while setting bean property 'cacheManagers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisCacheManager' defined in class path resource [spring-redis.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.startWebapp(JettyWebAppContext.java:296)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:365)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:163)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.maven.plugin.JettyServer.doStart(JettyServer.java:73)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.maven.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:534)
+	at org.eclipse.jetty.maven.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:357)
+	at org.eclipse.jetty.maven.plugin.JettyRunMojo.execute(JettyRunMojo.java:167)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:133)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:108)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:76)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:116)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:361)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:213)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:157)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:46)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.gaohan.biz.module1.service.PersonalInfoService com.gaohan.web.controller.PersonalInfoController.personalInfoService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personalInfoServiceImpl' defined in file [D:\idea_workspace\MutipleProgram\biz-personal\src\main\webapp\WEB-INF\classes\com\gaohan\biz\module1\service\impl\PersonalInfoServiceImpl.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.interceptor.CacheInterceptor#0': Cannot resolve reference to bean 'cacheManager' while setting bean property 'cacheManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [spring-redis.xml]: Cannot resolve reference to bean 'redisCacheManager' while setting bean property 'cacheManagers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisCacheManager' defined in class path resource [spring-redis.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:561)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 66 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personalInfoServiceImpl' defined in file [D:\idea_workspace\MutipleProgram\biz-personal\src\main\webapp\WEB-INF\classes\com\gaohan\biz\module1\service\impl\PersonalInfoServiceImpl.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.interceptor.CacheInterceptor#0': Cannot resolve reference to bean 'cacheManager' while setting bean property 'cacheManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [spring-redis.xml]: Cannot resolve reference to bean 'redisCacheManager' while setting bean property 'cacheManagers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisCacheManager' defined in class path resource [spring-redis.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:547)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1120)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1044)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:942)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:533)
+	... 68 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.interceptor.CacheInterceptor#0': Cannot resolve reference to bean 'cacheManager' while setting bean property 'cacheManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [spring-redis.xml]: Cannot resolve reference to bean 'redisCacheManager' while setting bean property 'cacheManagers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisCacheManager' defined in class path resource [spring-redis.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.support.AbstractBeanFactoryPointcutAdvisor.getAdvice(AbstractBeanFactoryPointcutAdvisor.java:88)
+	at org.springframework.aop.aspectj.AspectJProxyUtils.isAspectJAdvice(AspectJProxyUtils.java:67)
+	at org.springframework.aop.aspectj.AspectJProxyUtils.makeAdvisorChainAspectJCapableIfNecessary(AspectJProxyUtils.java:49)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.extendAdvisors(AspectJAwareAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:89)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	... 77 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [spring-redis.xml]: Cannot resolve reference to bean 'redisCacheManager' while setting bean property 'cacheManagers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisCacheManager' defined in class path resource [spring-redis.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:382)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:157)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 97 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisCacheManager' defined in class path resource [spring-redis.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 109 more
+Caused by: java.lang.NullPointerException
+	at org.springframework.cache.support.AbstractCacheManager.afterPropertiesSet(AbstractCacheManager.java:55)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 116 more
+"INFO 2016-01-06 14:26:05 com.alibaba.druid.pool.DruidDataSource            (1385) - {dataSource-1} closed
+"DEBUG 2016-01-06 14:26:05 com.gaohan.util.SpringContextHolder               (56) - [1]清除SpringContextHolder中的ApplicationContext:Root WebApplicationContext: startup date [Wed Jan 06 14:26:00 CST 2016]; root of context hierarchy
+"ERROR 2016-01-06 14:26:05 org.springframework.web.context.ContextLoader     (331) - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personalInfoController': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.gaohan.biz.module1.service.PersonalInfoService com.gaohan.web.controller.PersonalInfoController.personalInfoService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personalInfoServiceImpl' defined in file [D:\idea_workspace\MutipleProgram\biz-personal\src\main\webapp\WEB-INF\classes\com\gaohan\biz\module1\service\impl\PersonalInfoServiceImpl.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.interceptor.CacheInterceptor#0': Cannot resolve reference to bean 'cacheManager' while setting bean property 'cacheManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [spring-redis.xml]: Cannot resolve reference to bean 'redisCacheManager' while setting bean property 'cacheManagers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisCacheManager' defined in class path resource [spring-redis.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1210)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:755)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:757)
+	at org.springframework.context.support.AbstractApplicationContext.__refresh(AbstractApplicationContext.java:480)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.eclipse.jetty.server.handler.ContextHandler.callContextInitialized(ContextHandler.java:800)
+	at org.eclipse.jetty.servlet.ServletContextHandler.callContextInitialized(ServletContextHandler.java:444)
+	at org.eclipse.jetty.server.handler.ContextHandler.startContext(ContextHandler.java:791)
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:294)
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1349)
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.startWebapp(JettyWebAppContext.java:296)
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1342)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:741)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:505)
+	at org.eclipse.jetty.maven.plugin.JettyWebAppContext.doStart(JettyWebAppContext.java:365)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.doStart(ContextHandlerCollection.java:163)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:132)
+	at org.eclipse.jetty.server.Server.start(Server.java:387)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:114)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:61)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:354)
+	at org.eclipse.jetty.maven.plugin.JettyServer.doStart(JettyServer.java:73)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.eclipse.jetty.maven.plugin.AbstractJettyMojo.startJetty(AbstractJettyMojo.java:534)
+	at org.eclipse.jetty.maven.plugin.AbstractJettyMojo.execute(AbstractJettyMojo.java:357)
+	at org.eclipse.jetty.maven.plugin.JettyRunMojo.execute(JettyRunMojo.java:167)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:133)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:208)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:108)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:76)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:116)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:361)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:155)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:584)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:213)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:157)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+	at org.codehaus.classworlds.Launcher.main(Launcher.java:46)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.gaohan.biz.module1.service.PersonalInfoService com.gaohan.web.controller.PersonalInfoController.personalInfoService; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personalInfoServiceImpl' defined in file [D:\idea_workspace\MutipleProgram\biz-personal\src\main\webapp\WEB-INF\classes\com\gaohan\biz\module1\service\impl\PersonalInfoServiceImpl.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.interceptor.CacheInterceptor#0': Cannot resolve reference to bean 'cacheManager' while setting bean property 'cacheManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [spring-redis.xml]: Cannot resolve reference to bean 'redisCacheManager' while setting bean property 'cacheManagers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisCacheManager' defined in class path resource [spring-redis.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:561)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 66 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'personalInfoServiceImpl' defined in file [D:\idea_workspace\MutipleProgram\biz-personal\src\main\webapp\WEB-INF\classes\com\gaohan\biz\module1\service\impl\PersonalInfoServiceImpl.class]: Initialization of bean failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.interceptor.CacheInterceptor#0': Cannot resolve reference to bean 'cacheManager' while setting bean property 'cacheManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [spring-redis.xml]: Cannot resolve reference to bean 'redisCacheManager' while setting bean property 'cacheManagers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisCacheManager' defined in class path resource [spring-redis.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:547)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1120)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1044)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:942)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:533)
+	... 68 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.cache.interceptor.CacheInterceptor#0': Cannot resolve reference to bean 'cacheManager' while setting bean property 'cacheManager'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [spring-redis.xml]: Cannot resolve reference to bean 'redisCacheManager' while setting bean property 'cacheManagers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisCacheManager' defined in class path resource [spring-redis.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.aop.support.AbstractBeanFactoryPointcutAdvisor.getAdvice(AbstractBeanFactoryPointcutAdvisor.java:88)
+	at org.springframework.aop.aspectj.AspectJProxyUtils.isAspectJAdvice(AspectJProxyUtils.java:67)
+	at org.springframework.aop.aspectj.AspectJProxyUtils.makeAdvisorChainAspectJCapableIfNecessary(AspectJProxyUtils.java:49)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.extendAdvisors(AspectJAwareAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:89)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:69)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:330)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:293)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1579)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	... 77 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheManager' defined in class path resource [spring-redis.xml]: Cannot resolve reference to bean 'redisCacheManager' while setting bean property 'cacheManagers' with key [0]; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisCacheManager' defined in class path resource [spring-redis.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:359)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:108)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveManagedList(BeanDefinitionValueResolver.java:382)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:157)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1477)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:537)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 97 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'redisCacheManager' defined in class path resource [spring-redis.xml]: Invocation of init method failed; nested exception is java.lang.NullPointerException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:476)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:303)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:299)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:351)
+	... 109 more
+Caused by: java.lang.NullPointerException
+	at org.springframework.cache.support.AbstractCacheManager.afterPropertiesSet(AbstractCacheManager.java:55)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1633)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1570)
+	... 116 more
+"INFO 2016-01-06 14:29:21 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-06 14:29:21 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Wed Jan 06 14:29:21 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 14:29:22 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-06 14:29:23 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-06 14:29:23 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-redis.xml]
+"INFO 2016-01-06 14:29:23 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-06 14:29:24 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Wed Jan 06 14:29:21 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 14:29:24 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-06 14:29:24 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-06 14:29:25 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-06 14:29:25 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2016-01-06 14:29:26 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 4469 ms
+"INFO 2016-01-06 14:29:26 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2016-01-06 14:29:26 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 14:29:26 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 14:29:26 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2016-01-06 14:29:26 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2016-01-06 14:29:26 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"DEBUG 2016-01-06 14:29:26 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2016-01-06 14:29:26 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2016-01-06 14:29:26 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2016-01-06 14:29:27 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2016-01-06 14:29:27 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2016-01-06 14:29:27 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy37
+"DEBUG 2016-01-06 14:29:27 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2016-01-06 14:29:27 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2016-01-06 14:29:27 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 14:29:26 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 14:29:27 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 14:29:26 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 14:29:28 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2016-01-06 14:29:28 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2016-01-06 14:29:28 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2016-01-06 14:29:28 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2016-01-06 14:29:28 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 2246 ms
+"INFO 2016-01-06 14:29:46 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:null,value:{2}
+"INFO 2016-01-06 14:29:46 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 14:29:46 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 14:29:46 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c789820] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 14:29:46 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@793c3a47] will not be managed by Spring
+"DEBUG 2016-01-06 14:29:46 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 14:29:46 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 14:29:46 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 14:29:46 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20000} enter cache
+"DEBUG 2016-01-06 14:29:46 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3c789820]
+"INFO 2016-01-06 14:29:46 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 14:29:46 com.gaohan.common.service.cache.redis.RedisCache  (86) - setex cache,key:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1},value:null,result:{3}
+"INFO 2016-01-06 14:35:37 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-06 14:35:37 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Wed Jan 06 14:35:37 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 14:35:38 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-06 14:35:38 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-06 14:35:38 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-redis.xml]
+"INFO 2016-01-06 14:35:39 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-06 14:35:40 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Wed Jan 06 14:35:37 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 14:35:40 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-06 14:35:40 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-06 14:35:41 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-06 14:35:41 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2016-01-06 14:35:42 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 4744 ms
+"INFO 2016-01-06 14:35:42 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2016-01-06 14:35:42 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 14:35:42 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 14:35:42 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2016-01-06 14:35:42 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2016-01-06 14:35:42 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"DEBUG 2016-01-06 14:35:42 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2016-01-06 14:35:42 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2016-01-06 14:35:42 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2016-01-06 14:35:42 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2016-01-06 14:35:42 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2016-01-06 14:35:42 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy37
+"DEBUG 2016-01-06 14:35:43 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2016-01-06 14:35:43 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2016-01-06 14:35:43 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 14:35:42 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 14:35:43 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 14:35:42 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 14:35:44 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2016-01-06 14:35:44 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2016-01-06 14:35:44 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2016-01-06 14:35:44 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2016-01-06 14:35:44 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 2099 ms
+"INFO 2016-01-06 14:35:54 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:p_info.1,value:null
+"INFO 2016-01-06 14:35:54 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 14:35:54 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 14:35:54 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54b48506] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 14:35:54 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@16d3d5dd] will not be managed by Spring
+"DEBUG 2016-01-06 14:35:54 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 14:35:54 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 14:35:54 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 14:35:54 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20000} enter cache
+"DEBUG 2016-01-06 14:35:54 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@54b48506]
+"INFO 2016-01-06 14:35:54 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 14:35:55 com.gaohan.common.service.cache.redis.RedisCache  (86) - setex cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1},result:null
+"INFO 2016-01-06 14:37:51 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:p_info.1,value:null
+"INFO 2016-01-06 14:37:51 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 14:37:51 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 14:37:51 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60ff3be4] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 14:37:51 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@16d3d5dd] will not be managed by Spring
+"DEBUG 2016-01-06 14:37:51 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 14:37:51 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 14:37:51 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 14:37:51 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@60ff3be4]
+"INFO 2016-01-06 14:37:51 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 14:37:51 com.gaohan.common.service.cache.redis.RedisCache  (86) - setex cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1},result:null
+"INFO 2016-01-06 14:50:53 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-06 14:50:53 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Wed Jan 06 14:50:53 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 14:50:54 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-06 14:50:54 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-06 14:50:55 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-redis.xml]
+"INFO 2016-01-06 14:50:55 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-06 14:50:56 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Wed Jan 06 14:50:53 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 14:50:56 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-06 14:50:56 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-06 14:50:57 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-06 14:50:57 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2016-01-06 14:50:58 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 4514 ms
+"INFO 2016-01-06 14:50:58 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2016-01-06 14:50:58 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 14:50:58 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 14:50:58 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2016-01-06 14:50:58 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2016-01-06 14:50:58 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"DEBUG 2016-01-06 14:50:58 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2016-01-06 14:50:58 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2016-01-06 14:50:58 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2016-01-06 14:50:59 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2016-01-06 14:50:59 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2016-01-06 14:50:59 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy37
+"DEBUG 2016-01-06 14:50:59 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2016-01-06 14:50:59 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2016-01-06 14:50:59 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 14:50:58 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 14:50:59 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 14:50:58 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 14:51:00 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2016-01-06 14:51:00 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2016-01-06 14:51:00 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2016-01-06 14:51:00 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2016-01-06 14:51:00 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 2026 ms
+"INFO 2016-01-06 14:51:17 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:p_info.1,value:null
+"INFO 2016-01-06 14:51:17 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 14:51:17 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 14:51:17 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63afce4] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 14:51:17 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@739fa5c0] will not be managed by Spring
+"DEBUG 2016-01-06 14:51:17 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 14:51:17 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 14:51:17 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 14:51:17 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20000} enter cache
+"DEBUG 2016-01-06 14:51:17 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@63afce4]
+"INFO 2016-01-06 14:51:17 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 14:51:17 com.gaohan.common.service.cache.redis.RedisCache  (86) - setex cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1},result:OK
+"INFO 2016-01-06 14:51:29 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1}
+"DEBUG 2016-01-06 14:51:29 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)]: java.lang.ClassCastException: java.lang.String cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+"ERROR 2016-01-06 14:51:29 com.gaohan.web.exception.HandlerExceptionResolver (28) - 异常捕获:
+java.lang.ClassCastException: java.lang.String cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$3611bd5d.findById(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"ERROR 2016-01-06 14:51:29 org.apache.velocity                               (96) - ResourceManager : unable to find resource '/error/error.vm' in any resource loader.
+"ERROR 2016-01-06 14:51:29 org.apache.velocity                               (96) - ResourceManager : unable to find resource '/error/error.html.vm' in any resource loader.
+"INFO 2016-01-06 14:53:45 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:p_info.1,value:null
+"INFO 2016-01-06 14:53:45 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 14:53:45 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 14:53:45 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ca52564] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 14:53:45 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@739fa5c0] will not be managed by Spring
+"DEBUG 2016-01-06 14:53:45 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 14:53:45 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 14:53:45 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 14:53:45 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ca52564]
+"INFO 2016-01-06 14:53:45 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 14:53:45 com.gaohan.common.service.cache.redis.RedisCache  (86) - setex cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1},result:OK
+"INFO 2016-01-06 14:53:47 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1}
+"DEBUG 2016-01-06 14:53:47 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)]: java.lang.ClassCastException: java.lang.String cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+"ERROR 2016-01-06 14:54:00 com.gaohan.web.exception.HandlerExceptionResolver (28) - 异常捕获:
+java.lang.ClassCastException: java.lang.String cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$3611bd5d.findById(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-06 15:04:29 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-06 15:04:30 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Wed Jan 06 15:04:30 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 15:04:30 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-06 15:04:31 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-06 15:04:31 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-redis.xml]
+"INFO 2016-01-06 15:04:31 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-06 15:04:32 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Wed Jan 06 15:04:30 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 15:04:32 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-06 15:04:32 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-06 15:04:33 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-06 15:04:33 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2016-01-06 15:04:34 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 4428 ms
+"INFO 2016-01-06 15:04:34 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2016-01-06 15:04:34 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 15:04:34 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 15:04:34 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2016-01-06 15:04:34 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2016-01-06 15:04:35 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)
+"DEBUG 2016-01-06 15:04:35 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2016-01-06 15:04:35 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2016-01-06 15:04:35 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2016-01-06 15:04:35 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2016-01-06 15:04:35 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2016-01-06 15:04:35 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy37
+"DEBUG 2016-01-06 15:04:35 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2016-01-06 15:04:35 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2016-01-06 15:04:35 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 15:04:34 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 15:04:36 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 15:04:34 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 15:04:36 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2016-01-06 15:04:36 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2016-01-06 15:04:36 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2016-01-06 15:04:36 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2016-01-06 15:04:36 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 1960 ms
+"DEBUG 2016-01-06 15:04:53 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)]: com.gaohan.exception.BizException: 参数为空
+"WARN 2016-01-06 15:04:53 com.gaohan.web.exception.HandlerExceptionResolver (26) - 异常捕获:
+com.gaohan.exception.BizException: 参数为空
+	at com.gaohan.web.param.GetPersonalInfoParam.check(GetPersonalInfoParam.java:25)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"ERROR 2016-01-06 15:04:53 org.apache.velocity                               (96) - ResourceManager : unable to find resource '/error/error.vm' in any resource loader.
+"ERROR 2016-01-06 15:04:53 org.apache.velocity                               (96) - ResourceManager : unable to find resource '/error/error.html.vm' in any resource loader.
+"DEBUG 2016-01-06 15:10:17 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)]: com.gaohan.exception.BizException: 参数为空
+"WARN 2016-01-06 15:10:17 com.gaohan.web.exception.HandlerExceptionResolver (26) - 异常捕获:
+com.gaohan.exception.BizException: 参数为空
+	at com.gaohan.web.param.GetPersonalInfoParam.check(GetPersonalInfoParam.java:25)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-06 15:11:25 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-06 15:11:25 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Wed Jan 06 15:11:25 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 15:11:25 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-06 15:11:26 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-06 15:11:26 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-redis.xml]
+"INFO 2016-01-06 15:11:27 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-06 15:11:27 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Wed Jan 06 15:11:25 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 15:11:28 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-06 15:11:28 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-06 15:11:28 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-06 15:11:28 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2016-01-06 15:11:30 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 5032 ms
+"INFO 2016-01-06 15:11:30 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2016-01-06 15:11:30 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 15:11:30 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 15:11:30 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2016-01-06 15:11:30 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2016-01-06 15:11:31 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)
+"DEBUG 2016-01-06 15:11:31 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2016-01-06 15:11:31 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2016-01-06 15:11:31 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2016-01-06 15:11:31 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2016-01-06 15:11:31 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2016-01-06 15:11:31 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy37
+"DEBUG 2016-01-06 15:11:31 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2016-01-06 15:11:31 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2016-01-06 15:11:31 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 15:11:30 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 15:11:31 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 15:11:30 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 15:11:32 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2016-01-06 15:11:32 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2016-01-06 15:11:32 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2016-01-06 15:11:32 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2016-01-06 15:11:32 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 2011 ms
+"DEBUG 2016-01-06 15:11:35 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)]: com.gaohan.exception.BizException: 参数为空
+"WARN 2016-01-06 15:11:35 com.gaohan.web.exception.HandlerExceptionResolver (26) - 异常捕获:
+com.gaohan.exception.BizException: 参数为空
+	at com.gaohan.web.param.GetPersonalInfoParam.check(GetPersonalInfoParam.java:25)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"ERROR 2016-01-06 15:11:36 org.apache.velocity                               (96) - ResourceManager : unable to find resource 'layout/default.vm' in any resource loader.
+"INFO 2016-01-06 15:14:33 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-06 15:14:33 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Wed Jan 06 15:14:33 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 15:14:33 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-06 15:14:34 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-06 15:14:34 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-redis.xml]
+"INFO 2016-01-06 15:14:35 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-06 15:14:35 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Wed Jan 06 15:14:33 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 15:14:36 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-06 15:14:36 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-06 15:14:36 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-06 15:14:36 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2016-01-06 15:14:37 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 4411 ms
+"INFO 2016-01-06 15:14:38 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2016-01-06 15:14:38 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 15:14:38 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 15:14:38 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2016-01-06 15:14:38 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2016-01-06 15:14:38 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)
+"DEBUG 2016-01-06 15:14:38 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2016-01-06 15:14:38 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2016-01-06 15:14:38 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2016-01-06 15:14:38 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2016-01-06 15:14:38 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2016-01-06 15:14:38 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy37
+"DEBUG 2016-01-06 15:14:38 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2016-01-06 15:14:38 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2016-01-06 15:14:39 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 15:14:38 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 15:14:39 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 15:14:38 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 15:14:40 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2016-01-06 15:14:40 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2016-01-06 15:14:40 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2016-01-06 15:14:40 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2016-01-06 15:14:40 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 2440 ms
+"DEBUG 2016-01-06 15:14:59 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)]: com.gaohan.exception.BizException: 参数为空
+"WARN 2016-01-06 15:14:59 com.gaohan.web.exception.HandlerExceptionResolver (26) - 异常捕获:
+com.gaohan.exception.BizException: 参数为空
+	at com.gaohan.web.param.GetPersonalInfoParam.check(GetPersonalInfoParam.java:25)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"ERROR 2016-01-06 15:14:59 org.apache.velocity                               (96) - ResourceManager : unable to find resource '/error/error.html.vm' in any resource loader.
+"INFO 2016-01-06 15:19:43 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:p_info.1,value:null
+"INFO 2016-01-06 15:19:43 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 15:19:43 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 15:19:43 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@620a90e8] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 15:19:43 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@48d1f9fa] will not be managed by Spring
+"DEBUG 2016-01-06 15:19:43 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 15:19:43 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 15:19:43 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 15:19:43 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20000} enter cache
+"DEBUG 2016-01-06 15:19:43 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@620a90e8]
+"INFO 2016-01-06 15:19:43 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 15:19:44 com.gaohan.common.service.cache.redis.RedisCache  (86) - setex cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1},result:OK
+"INFO 2016-01-06 15:21:20 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1}
+"DEBUG 2016-01-06 15:21:20 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)]: java.lang.ClassCastException: java.lang.String cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+"ERROR 2016-01-06 15:21:20 com.gaohan.web.exception.HandlerExceptionResolver (28) - 异常捕获:
+java.lang.ClassCastException: java.lang.String cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$9385e36.findById(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-06 15:28:08 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)
+"DEBUG 2016-01-06 15:28:08 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)]: com.gaohan.exception.BizException: 参数为空
+"WARN 2016-01-06 15:28:08 com.gaohan.web.exception.HandlerExceptionResolver (26) - 异常捕获:
+com.gaohan.exception.BizException: 参数为空
+	at com.gaohan.web.param.GetPersonalInfoParam.check(GetPersonalInfoParam.java:25)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-06 15:31:10 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[application/json],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)
+"DEBUG 2016-01-06 15:31:10 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)]: com.gaohan.exception.BizException: 参数为空
+"WARN 2016-01-06 15:31:10 com.gaohan.web.exception.HandlerExceptionResolver (26) - 异常捕获:
+com.gaohan.exception.BizException: 参数为空
+	at com.gaohan.web.param.GetPersonalInfoParam.check(GetPersonalInfoParam.java:25)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-06 15:34:09 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-06 15:34:09 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Wed Jan 06 15:34:09 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 15:34:09 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-06 15:34:10 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-06 15:34:10 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-redis.xml]
+"INFO 2016-01-06 15:34:11 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-06 15:34:11 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Wed Jan 06 15:34:09 CST 2016]; root of context hierarchy
+"INFO 2016-01-06 15:34:12 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-06 15:34:12 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-06 15:34:12 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-06 15:34:12 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2016-01-06 15:34:13 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 4465 ms
+"INFO 2016-01-06 15:34:13 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2016-01-06 15:34:13 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 15:34:13 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 15:34:13 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2016-01-06 15:34:14 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2016-01-06 15:34:14 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[application/json],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)
+"DEBUG 2016-01-06 15:34:14 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2016-01-06 15:34:14 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2016-01-06 15:34:14 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2016-01-06 15:34:14 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2016-01-06 15:34:14 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2016-01-06 15:34:14 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy37
+"DEBUG 2016-01-06 15:34:14 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2016-01-06 15:34:14 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2016-01-06 15:34:15 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 15:34:13 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 15:34:15 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Wed Jan 06 15:34:13 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-06 15:34:15 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2016-01-06 15:34:15 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2016-01-06 15:34:15 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2016-01-06 15:34:15 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2016-01-06 15:34:15 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 2040 ms
+"INFO 2016-01-06 15:34:23 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:p_info.1,value:null
+"INFO 2016-01-06 15:34:23 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 15:34:23 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 15:34:23 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@299e8e96] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 15:34:23 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61a0546e] will not be managed by Spring
+"DEBUG 2016-01-06 15:34:23 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 15:34:23 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 15:34:23 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 15:34:23 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20000} enter cache
+"DEBUG 2016-01-06 15:34:23 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@299e8e96]
+"INFO 2016-01-06 15:34:23 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 15:34:23 com.gaohan.common.service.cache.redis.RedisCache  (86) - setex cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1},result:OK
+"INFO 2016-01-06 15:34:37 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)
+"INFO 2016-01-06 15:34:37 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1}
+"DEBUG 2016-01-06 15:34:37 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(com.gaohan.web.param.GetPersonalInfoParam)]: java.lang.ClassCastException: java.lang.String cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+"ERROR 2016-01-06 15:34:37 com.gaohan.web.exception.HandlerExceptionResolver (28) - 异常捕获:
+java.lang.ClassCastException: java.lang.String cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$2c205d0e.findById(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"ERROR 2016-01-06 15:34:37 org.apache.velocity                               (96) - ResourceManager : unable to find resource '/error/error.html.vm' in any resource loader.
+"INFO 2016-01-06 15:38:35 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-06 15:38:35 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:p_info.1,value:null
+"INFO 2016-01-06 15:38:35 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 15:38:35 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 15:38:35 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@82c90ff] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 15:38:35 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61a0546e] will not be managed by Spring
+"DEBUG 2016-01-06 15:38:35 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 15:38:35 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 15:38:35 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 15:38:35 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@82c90ff]
+"INFO 2016-01-06 15:38:35 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 15:38:35 com.gaohan.common.service.cache.redis.RedisCache  (86) - setex cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1},result:OK
+"INFO 2016-01-06 15:38:39 com.gaohan.common.service.cache.redis.RedisCache  (54) - get cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1}
+"DEBUG 2016-01-06 15:38:39 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)]: java.lang.ClassCastException: java.lang.String cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+"ERROR 2016-01-06 15:38:39 com.gaohan.web.exception.HandlerExceptionResolver (28) - 异常捕获:
+java.lang.ClassCastException: java.lang.String cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$2c205d0e.findById(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.zeroturnaround.javarebel.gw.invoke(JRebel:1114)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-06 15:59:01 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-06 15:59:21 com.gaohan.common.service.cache.redis.RedisCache  (56) - get cache,key:p_info.1,value:null
+"INFO 2016-01-06 15:59:21 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 15:59:21 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 15:59:21 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@292b5e2a] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 15:59:21 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61a0546e] will not be managed by Spring
+"DEBUG 2016-01-06 15:59:21 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 15:59:21 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 15:59:21 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 15:59:21 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@292b5e2a]
+"INFO 2016-01-06 15:59:21 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 15:59:21 com.gaohan.common.service.cache.redis.RedisCache  (88) - setex cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1},result:OK
+"INFO 2016-01-06 15:59:51 com.gaohan.common.service.cache.redis.RedisCache  (56) - get cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1}
+"DEBUG 2016-01-06 15:59:51 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)]: java.lang.ClassCastException: java.lang.String cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+"ERROR 2016-01-06 15:59:51 com.gaohan.web.exception.HandlerExceptionResolver (28) - 异常捕获:
+java.lang.ClassCastException: java.lang.String cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$2c205d0e.findById(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.zeroturnaround.javarebel.gw.invoke(JRebel:1114)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-06 16:03:09 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-06 16:03:15 com.gaohan.common.service.cache.redis.RedisCache  (57) - get cache,key:p_info.1,value:null
+"INFO 2016-01-06 16:03:18 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 16:03:18 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 16:03:18 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ff01451] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 16:03:18 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61a0546e] will not be managed by Spring
+"DEBUG 2016-01-06 16:03:18 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 16:03:18 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 16:03:18 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 16:03:18 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5ff01451]
+"INFO 2016-01-06 16:03:18 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 16:03:18 com.gaohan.common.service.cache.redis.RedisCache  (89) - setex cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1},result:OK
+"INFO 2016-01-06 16:03:27 com.gaohan.common.service.cache.redis.RedisCache  (57) - get cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1}
+"INFO 2016-01-06 16:25:48 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-06 16:25:48 com.gaohan.common.service.cache.redis.RedisCache  (57) - get cache,key:p_info.1,value:null
+"INFO 2016-01-06 16:25:48 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 16:25:48 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 16:25:48 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27b49af5] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 16:25:48 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61a0546e] will not be managed by Spring
+"DEBUG 2016-01-06 16:25:48 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 16:25:48 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 16:25:48 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 16:25:48 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27b49af5]
+"INFO 2016-01-06 16:25:48 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 16:25:48 com.gaohan.common.service.cache.redis.RedisCache  (89) - setex cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1},result:OK
+"INFO 2016-01-06 16:26:12 com.gaohan.common.service.cache.redis.RedisCache  (57) - get cache,key:p_info.1,value:{"age":25,"hobbies":"打球","id":1,"name":"高翰","sex":1}
+"DEBUG 2016-01-06 16:26:16 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)]: java.lang.ClassCastException: com.alibaba.fastjson.JSONObject cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+"ERROR 2016-01-06 16:26:16 com.gaohan.web.exception.HandlerExceptionResolver (28) - 异常捕获:
+java.lang.ClassCastException: com.alibaba.fastjson.JSONObject cannot be cast to com.gaohan.biz.module1.vo.PersonalInfoVo
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$2c205d0e.findById(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(PersonalInfoController.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.zeroturnaround.javarebel.gw.invoke(JRebel:1114)
+	at java.lang.reflect.Method.invoke(Method.java)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-06 17:28:44 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"WARN 2016-01-06 17:28:44 com.gaohan.common.service.cache.redis.RedisCache  (61) - deserialization failed
+"INFO 2016-01-06 17:28:44 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 17:28:44 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 17:28:44 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2751b4f2] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 17:28:44 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61a0546e] will not be managed by Spring
+"DEBUG 2016-01-06 17:28:44 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 17:28:44 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 17:28:44 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 17:28:44 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2751b4f2]
+"INFO 2016-01-06 17:28:44 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 17:28:44 com.gaohan.common.service.cache.redis.RedisCache  (98) - setex cache,key:p_info.1,value:�� sr (com.gaohan.biz.module1.vo.PersonalInfoVo�*�I�2� L aget Ljava/lang/Integer;L hobbiest Ljava/lang/String;L idt Ljava/lang/Long;L nameq ~ L sexq ~ xpsr java.lang.Integer⠤���8 I valuexr java.lang.Number������  xp   t 打球sr java.lang.Long;��̏#� J valuexq ~        t 高翰sq ~    ,result:OK
+"WARN 2016-01-06 17:29:04 com.gaohan.common.service.cache.redis.RedisCache  (61) - deserialization failed
+"INFO 2016-01-06 17:29:04 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 17:29:04 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 17:29:04 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@234ea4ea] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 17:29:04 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61a0546e] will not be managed by Spring
+"DEBUG 2016-01-06 17:29:04 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 17:29:04 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 17:29:04 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 17:29:04 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@234ea4ea]
+"INFO 2016-01-06 17:29:04 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 17:29:04 com.gaohan.common.service.cache.redis.RedisCache  (98) - setex cache,key:p_info.1,value:�� sr (com.gaohan.biz.module1.vo.PersonalInfoVo�*�I�2� L aget Ljava/lang/Integer;L hobbiest Ljava/lang/String;L idt Ljava/lang/Long;L nameq ~ L sexq ~ xpsr java.lang.Integer⠤���8 I valuexr java.lang.Number������  xp   t 打球sr java.lang.Long;��̏#� J valuexq ~        t 高翰sq ~    ,result:OK
+"INFO 2016-01-06 17:29:51 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"WARN 2016-01-06 17:29:51 com.gaohan.common.service.cache.redis.RedisCache  (62) - deserialization failed
+"INFO 2016-01-06 17:29:51 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 17:29:51 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 17:29:51 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a65f0bb] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 17:29:51 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61a0546e] will not be managed by Spring
+"DEBUG 2016-01-06 17:29:51 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 17:29:51 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 17:29:51 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 17:29:51 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a65f0bb]
+"INFO 2016-01-06 17:29:51 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 17:29:51 com.gaohan.common.service.cache.redis.RedisCache  (99) - setex cache,key:p_info.1,value:�� sr (com.gaohan.biz.module1.vo.PersonalInfoVo�*�I�2� L aget Ljava/lang/Integer;L hobbiest Ljava/lang/String;L idt Ljava/lang/Long;L nameq ~ L sexq ~ xpsr java.lang.Integer⠤���8 I valuexr java.lang.Number������  xp   t 打球sr java.lang.Long;��̏#� J valuexq ~        t 高翰sq ~    ,result:OK
+"INFO 2016-01-06 17:43:12 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"WARN 2016-01-06 17:43:12 com.gaohan.common.service.cache.redis.RedisCache  (64) - deserialization failed
+"INFO 2016-01-06 17:43:12 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 17:43:12 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 17:43:12 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24772242] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 17:43:12 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61a0546e] will not be managed by Spring
+"DEBUG 2016-01-06 17:43:12 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 17:43:12 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 17:43:12 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 17:43:12 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24772242]
+"INFO 2016-01-06 17:43:12 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 17:43:12 com.gaohan.common.service.cache.redis.RedisCache  (101) - setex cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAGXQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=,result:OK
+"INFO 2016-01-06 17:43:28 com.gaohan.common.service.cache.redis.RedisCache  (67) - get cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAGXQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=
+"INFO 2016-01-06 17:43:35 com.gaohan.common.service.cache.redis.RedisCache  (67) - get cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAGXQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=
+"INFO 2016-01-06 17:43:40 com.gaohan.common.service.cache.redis.RedisCache  (67) - get cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAGXQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=
+"WARN 2016-01-06 17:45:15 com.gaohan.common.service.cache.redis.RedisCache  (64) - deserialization failed
+"INFO 2016-01-06 17:45:15 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 17:45:15 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 17:45:15 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@18ca5368] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 17:45:15 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61a0546e] will not be managed by Spring
+"DEBUG 2016-01-06 17:45:15 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 17:45:15 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 17:45:15 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 17:45:15 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@18ca5368]
+"INFO 2016-01-06 17:45:15 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 17:45:15 com.gaohan.common.service.cache.redis.RedisCache  (101) - setex cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAGXQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=,result:OK
+"INFO 2016-01-06 18:09:12 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-06 18:09:12 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 18:09:12 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 18:09:12 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17f0469] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 18:09:12 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61a0546e] will not be managed by Spring
+"DEBUG 2016-01-06 18:09:12 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 18:09:12 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 18:09:12 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 18:09:12 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17f0469]
+"INFO 2016-01-06 18:09:12 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 18:09:12 com.gaohan.common.service.cache.redis.RedisCache  (114) - setex cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAGXQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=,result:OK
+"INFO 2016-01-06 18:09:26 com.gaohan.common.service.cache.redis.RedisCache  (73) - get cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAGXQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=
+"INFO 2016-01-06 18:09:39 n.biz.module1.service.impl.PersonalInfoServiceImpl(33) - start to query personalInfo from db
+"DEBUG 2016-01-06 18:09:39 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-06 18:09:39 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2865e309] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-06 18:09:39 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@61a0546e] will not be managed by Spring
+"DEBUG 2016-01-06 18:09:39 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==>  Preparing: select id, name, age, sex, hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-06 18:09:39 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-06 18:09:39 le1.mapper.PersonalInfoDoMapper.selectByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-06 18:09:39 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2865e309]
+"INFO 2016-01-06 18:09:39 n.biz.module1.service.impl.PersonalInfoServiceImpl(36) - query personalInfo result:PersonalInfoDo{id=1, name='高翰', age=25, sex=1, hobbies='打球'}
+"INFO 2016-01-06 18:09:39 com.gaohan.common.service.cache.redis.RedisCache  (114) - setex cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAGXQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=,result:OK

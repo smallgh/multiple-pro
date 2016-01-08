@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx-4.0.xsd">
+
+    <bean id="gaohanDataSource" class="com.alibaba.druid.pool.DruidDataSource" init-method="init"
+          destroy-method="close">
+        <property name="url" value="${url}"/>
+        <property name="username" value="${userName}"/>
+        <property name="password" value="${password}"/>
+
+        <property name="driverClassName" value="${driverClassName}"/>
+        <property name="maxActive" value="${maxActive}"/>
+        <property name="maxWait" value="${maxWait}"/>
+
+        <property name="minIdle" value="${druid.minIdle}"/>
+        <property name="filters" value="${druid.filters}"/>
+        <property name="initialSize" value="${druid.initialSize}"/>
+        <property name="timeBetweenEvictionRunsMillis" value="${druid.timeBetweenEvictionRunsMillis}"/>
+        <property name="minEvictableIdleTimeMillis" value="${druid.minEvictableIdleTimeMillis}"/>
+        <property name="validationQuery" value="${druid.validationQuery}"/>
+        <property name="testWhileIdle" value="${druid.testWhileIdle}"/>
+        <property name="testOnBorrow" value="${druid.testOnBorrow}"/>
+        <property name="testOnReturn" value="${druid.testOnReturn}"/>
+        <property name="poolPreparedStatements" value="${druid.poolPreparedStatements}"/>
+        <property name="maxOpenPreparedStatements" value="${druid.maxOpenPreparedStatements}"/>
+    </bean>
+
+    <bean id="gaohanTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="gaohanDataSource"/>
+        <qualifier value="gaohanTx"/>
+    </bean>
+
+
+    <tx:annotation-driven/>
+
+    <bean id="gaohanSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="gaohanDataSource"/>
+        <!--指定xml的包名-->
+        <property name="typeAliasesPackage" value="com.gaohan.dal"/>
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="gaohanSqlSessionFactory"></property>
+        <!--指定包名为接口包名-->
+        <property name="basePackage" value="com.gaohan.dal"/>
+    </bean>
+
+</beans>

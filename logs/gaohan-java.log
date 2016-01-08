@@ -1,0 +1,1667 @@
+"INFO 2016-01-07 15:38:25 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-07 15:38:25 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Thu Jan 07 15:38:25 CST 2016]; root of context hierarchy
+"INFO 2016-01-07 15:38:26 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-07 15:38:27 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-07 15:38:27 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-redis.xml]
+"INFO 2016-01-07 15:38:28 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-07 15:38:28 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Thu Jan 07 15:38:25 CST 2016]; root of context hierarchy
+"INFO 2016-01-07 15:38:29 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-07 15:38:29 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-07 15:38:29 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-07 15:38:29 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2016-01-07 15:38:31 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 5752 ms
+"INFO 2016-01-07 15:38:31 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2016-01-07 15:38:31 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Jan 07 15:38:31 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-07 15:38:31 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2016-01-07 15:38:32 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2016-01-07 15:38:32 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 15:38:32 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/del],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.delPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 15:38:32 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"DEBUG 2016-01-07 15:38:32 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2016-01-07 15:38:32 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2016-01-07 15:38:32 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2016-01-07 15:38:32 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2016-01-07 15:38:32 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2016-01-07 15:38:32 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy38
+"DEBUG 2016-01-07 15:38:32 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2016-01-07 15:38:32 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2016-01-07 15:38:32 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Jan 07 15:38:31 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-07 15:38:33 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Jan 07 15:38:31 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-07 15:38:33 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2016-01-07 15:38:33 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2016-01-07 15:38:33 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2016-01-07 15:38:33 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2016-01-07 15:38:33 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 1890 ms
+"INFO 2016-01-07 15:40:39 n.biz.module1.service.impl.PersonalInfoServiceImpl(35) - start to query personalInfo from db
+"DEBUG 2016-01-07 15:40:39 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 15:40:39 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19f2396d] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 15:40:39 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1613dac8] will not be managed by Spring
+"DEBUG 2016-01-07 15:40:39 apper.PersonalInfoDoMapperExt.selectVoByPrimaryKey(139) - ==>  Preparing: select id as id, name as name, sex as sex, age as age, hobbies as hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-07 15:40:39 apper.PersonalInfoDoMapperExt.selectVoByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-07 15:40:40 apper.PersonalInfoDoMapperExt.selectVoByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-07 15:40:40 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20000} enter cache
+"DEBUG 2016-01-07 15:40:40 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19f2396d]
+"INFO 2016-01-07 15:40:40 n.biz.module1.service.impl.PersonalInfoServiceImpl(39) - query personalInfo successfully,result:com.gaohan.biz.module1.vo.PersonalInfoVo@27090e7d
+"INFO 2016-01-07 15:40:41 com.gaohan.common.service.cache.redis.RedisCache  (114) - setex cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAGXQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=,result:null
+"INFO 2016-01-07 15:41:56 n.biz.module1.service.impl.PersonalInfoServiceImpl(35) - start to query personalInfo from db
+"DEBUG 2016-01-07 15:41:56 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 15:41:56 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f9062] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 15:41:56 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1613dac8] will not be managed by Spring
+"DEBUG 2016-01-07 15:41:56 apper.PersonalInfoDoMapperExt.selectVoByPrimaryKey(139) - ==>  Preparing: select id as id, name as name, sex as sex, age as age, hobbies as hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-07 15:41:56 apper.PersonalInfoDoMapperExt.selectVoByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-07 15:41:56 apper.PersonalInfoDoMapperExt.selectVoByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-07 15:41:56 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15f9062]
+"INFO 2016-01-07 15:41:56 n.biz.module1.service.impl.PersonalInfoServiceImpl(39) - query personalInfo successfully,result:com.gaohan.biz.module1.vo.PersonalInfoVo@561adfd6
+"INFO 2016-01-07 15:41:56 com.gaohan.common.service.cache.redis.RedisCache  (114) - setex cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAGXQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=,result:OK
+"INFO 2016-01-07 15:42:40 com.gaohan.common.service.cache.redis.RedisCache  (73) - get cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAGXQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=
+"DEBUG 2016-01-07 15:43:34 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: com.gaohan.exception.BizException: 参数为空, id不能为空
+"WARN 2016-01-07 15:43:34 com.gaohan.web.exception.HandlerExceptionResolver (26) - 异常捕获:
+com.gaohan.exception.BizException: 参数为空, id不能为空
+	at com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(PersonalInfoController.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"ERROR 2016-01-07 15:43:34 org.apache.velocity                               (96) - ResourceManager : unable to find resource '/error/error.html.vm' in any resource loader.
+"DEBUG 2016-01-07 15:56:18 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: com.gaohan.exception.BizException: 参数为空, id不能为空
+"WARN 2016-01-07 15:56:18 com.gaohan.web.exception.HandlerExceptionResolver (26) - 异常捕获:
+com.gaohan.exception.BizException: 参数为空, id不能为空
+	at com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(PersonalInfoController.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-07 15:56:36 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 15:56:36 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/del],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.delPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 15:56:36 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"DEBUG 2016-01-07 15:56:36 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: com.gaohan.exception.BizException: 参数为空, id不能为空
+"WARN 2016-01-07 15:56:36 com.gaohan.web.exception.HandlerExceptionResolver (27) - 异常捕获:
+com.gaohan.exception.BizException: 参数为空, id不能为空
+	at com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(PersonalInfoController.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-07 15:58:39 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 15:58:39 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/del],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.delPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 15:58:39 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"DEBUG 2016-01-07 15:58:49 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: com.gaohan.exception.BizException: 参数为空, id不能为空
+"WARN 2016-01-07 15:58:49 com.gaohan.web.exception.HandlerExceptionResolver (27) - 异常捕获:
+com.gaohan.exception.BizException: 参数为空, id不能为空
+	at com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(PersonalInfoController.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"DEBUG 2016-01-07 16:03:43 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: com.gaohan.exception.BizException: 参数为空, id不能为空
+"WARN 2016-01-07 16:03:43 com.gaohan.web.exception.HandlerExceptionResolver (27) - 异常捕获:
+com.gaohan.exception.BizException: 参数为空, id不能为空
+	at com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(PersonalInfoController.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-07 16:05:53 n.biz.module1.service.impl.PersonalInfoServiceImpl(56) - start to update personalInfo to db
+"DEBUG 2016-01-07 16:05:53 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:05:53 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6dbdde71] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:05:53 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1613dac8] will not be managed by Spring
+"DEBUG 2016-01-07 16:05:53 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==>  Preparing: update gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-07 16:05:53 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-07 16:05:53 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20001} enter cache
+"DEBUG 2016-01-07 16:05:53 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6dbdde71]
+"INFO 2016-01-07 16:05:53 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+"INFO 2016-01-07 16:05:53 .springframework.jdbc.support.SQLErrorCodesFactory(126) - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+"DEBUG 2016-01-07 16:05:53 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 1' at line 3
+### The error may involve com.gaohan.dal.module1.mapper.PersonalInfoDoMapper.updateByPrimaryKeySelective-Inline
+### The error occurred while setting parameters
+### SQL: update gaohan_personal.personal_info            where id = ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 1' at line 3
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 1' at line 3
+"ERROR 2016-01-07 16:05:53 com.gaohan.web.exception.HandlerExceptionResolver (29) - 异常捕获:
+org.springframework.jdbc.BadSqlGrammarException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 1' at line 3
+### The error may involve com.gaohan.dal.module1.mapper.PersonalInfoDoMapper.updateByPrimaryKeySelective-Inline
+### The error occurred while setting parameters
+### SQL: update gaohan_personal.personal_info            where id = ?
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 1' at line 3
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 1' at line 3
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:231)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy32.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:254)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:54)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy35.updateByPrimaryKeySelective(Unknown Source)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl.updateSelective(PersonalInfoServiceImpl.java:57)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$FastClassBySpringCGLIB$$ba2b5657.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.cache.interceptor.CacheInterceptor$1.invoke(CacheInterceptor.java:52)
+	at org.springframework.cache.interceptor.CacheAspectSupport.invokeOperation(CacheAspectSupport.java:317)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:350)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:299)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$7c8925ac.updateSelective(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(PersonalInfoController.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'where id = 1' at line 3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:400)
+	at com.mysql.jdbc.Util.getInstance(Util.java:383)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:980)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1193)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:131)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:62)
+	at com.sun.proxy.$Proxy43.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 61 more
+"INFO 2016-01-07 16:07:59 n.biz.module1.service.impl.PersonalInfoServiceImpl(56) - start to update personalInfo to db
+"DEBUG 2016-01-07 16:07:59 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:07:59 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@750ca0e] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:07:59 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1613dac8] will not be managed by Spring
+"DEBUG 2016-01-07 16:07:59 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==>  Preparing: update gaohan_personal.personal_info SET age = ? where id = ? 
+"DEBUG 2016-01-07 16:07:59 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==> Parameters: 100(Integer), 1(Long)
+"DEBUG 2016-01-07 16:08:00 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - <==    Updates: 1
+"DEBUG 2016-01-07 16:08:00 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20002} enter cache
+"DEBUG 2016-01-07 16:08:00 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@750ca0e]
+"INFO 2016-01-07 16:08:00 n.biz.module1.service.impl.PersonalInfoServiceImpl(58) - update personalInfo,personalInfoVo:PersonalInfoVo{id=1, name='null', age=100, sex=null, hobbies='null'},effectCount:1
+"DEBUG 2016-01-07 16:08:00 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: java.lang.NullPointerException
+"ERROR 2016-01-07 16:08:00 com.gaohan.web.exception.HandlerExceptionResolver (29) - 异常捕获:
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:1970)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:112)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:129)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:242)
+	at org.springframework.cache.interceptor.ExpressionEvaluator.key(ExpressionEvaluator.java:115)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContext.generateKey(CacheAspectSupport.java:621)
+	at org.springframework.cache.interceptor.CacheAspectSupport.performCacheEvict(CacheAspectSupport.java:406)
+	at org.springframework.cache.interceptor.CacheAspectSupport.processCacheEvicts(CacheAspectSupport.java:392)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:362)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:299)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$7c8925ac.updateSelective(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(PersonalInfoController.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-07 16:09:42 n.biz.module1.service.impl.PersonalInfoServiceImpl(56) - start to update personalInfo to db
+"DEBUG 2016-01-07 16:09:42 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:09:42 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a586f8f] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:09:42 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1613dac8] will not be managed by Spring
+"DEBUG 2016-01-07 16:09:42 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==>  Preparing: update gaohan_personal.personal_info SET age = ? where id = ? 
+"DEBUG 2016-01-07 16:09:42 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==> Parameters: 100(Integer), 1(Long)
+"DEBUG 2016-01-07 16:09:42 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - <==    Updates: 1
+"DEBUG 2016-01-07 16:09:42 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a586f8f]
+"INFO 2016-01-07 16:09:42 n.biz.module1.service.impl.PersonalInfoServiceImpl(58) - update personalInfo,personalInfoVo:PersonalInfoVo{id=1, name='null', age=100, sex=null, hobbies='null'},effectCount:1
+"DEBUG 2016-01-07 16:09:44 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: java.lang.NullPointerException
+"ERROR 2016-01-07 16:09:44 com.gaohan.web.exception.HandlerExceptionResolver (29) - 异常捕获:
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:1970)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:112)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:102)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:242)
+	at org.springframework.cache.interceptor.ExpressionEvaluator.key(ExpressionEvaluator.java:115)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContext.generateKey(CacheAspectSupport.java:621)
+	at org.springframework.cache.interceptor.CacheAspectSupport.performCacheEvict(CacheAspectSupport.java:406)
+	at org.springframework.cache.interceptor.CacheAspectSupport.processCacheEvicts(CacheAspectSupport.java:392)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:362)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:299)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$7c8925ac.updateSelective(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(PersonalInfoController.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-07 16:10:45 n.biz.module1.service.impl.PersonalInfoServiceImpl(56) - start to update personalInfo to db
+"DEBUG 2016-01-07 16:10:45 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:10:45 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a01120b] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:10:45 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1613dac8] will not be managed by Spring
+"DEBUG 2016-01-07 16:10:45 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==>  Preparing: update gaohan_personal.personal_info SET age = ? where id = ? 
+"DEBUG 2016-01-07 16:10:45 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==> Parameters: 100(Integer), 1(Long)
+"DEBUG 2016-01-07 16:10:45 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - <==    Updates: 1
+"DEBUG 2016-01-07 16:10:45 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6a01120b]
+"INFO 2016-01-07 16:10:45 n.biz.module1.service.impl.PersonalInfoServiceImpl(58) - update personalInfo,personalInfoVo:PersonalInfoVo{id=1, name='null', age=100, sex=null, hobbies='null'},effectCount:1
+"DEBUG 2016-01-07 16:10:45 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: java.lang.NullPointerException
+"ERROR 2016-01-07 16:10:45 com.gaohan.web.exception.HandlerExceptionResolver (29) - 异常捕获:
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:1970)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:112)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:102)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:242)
+	at org.springframework.cache.interceptor.ExpressionEvaluator.key(ExpressionEvaluator.java:115)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContext.generateKey(CacheAspectSupport.java:621)
+	at org.springframework.cache.interceptor.CacheAspectSupport.performCacheEvict(CacheAspectSupport.java:406)
+	at org.springframework.cache.interceptor.CacheAspectSupport.processCacheEvicts(CacheAspectSupport.java:392)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:362)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:299)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$7c8925ac.updateSelective(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(PersonalInfoController.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-07 16:10:59 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:10:59 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/del],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.delPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:10:59 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"INFO 2016-01-07 16:10:59 n.biz.module1.service.impl.PersonalInfoServiceImpl(56) - start to update personalInfo to db
+"DEBUG 2016-01-07 16:10:59 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:10:59 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2036a607] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:10:59 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1613dac8] will not be managed by Spring
+"DEBUG 2016-01-07 16:10:59 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==>  Preparing: update gaohan_personal.personal_info SET age = ? where id = ? 
+"DEBUG 2016-01-07 16:10:59 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==> Parameters: 100(Integer), 1(Long)
+"DEBUG 2016-01-07 16:10:59 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - <==    Updates: 1
+"DEBUG 2016-01-07 16:10:59 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2036a607]
+"INFO 2016-01-07 16:10:59 n.biz.module1.service.impl.PersonalInfoServiceImpl(58) - update personalInfo,personalInfoVo:PersonalInfoVo{id=1, name='null', age=100, sex=null, hobbies='null'},effectCount:1
+"DEBUG 2016-01-07 16:10:59 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: java.lang.NullPointerException
+"ERROR 2016-01-07 16:10:59 com.gaohan.web.exception.HandlerExceptionResolver (29) - 异常捕获:
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:1970)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:112)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:102)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:242)
+	at org.springframework.cache.interceptor.ExpressionEvaluator.key(ExpressionEvaluator.java:115)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContext.generateKey(CacheAspectSupport.java:621)
+	at org.springframework.cache.interceptor.CacheAspectSupport.performCacheEvict(CacheAspectSupport.java:406)
+	at org.springframework.cache.interceptor.CacheAspectSupport.processCacheEvicts(CacheAspectSupport.java:392)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:362)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:299)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$7c8925ac.updateSelective(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(PersonalInfoController.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-07 16:12:21 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:12:21 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/del],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.delPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:12:21 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"INFO 2016-01-07 16:12:21 n.biz.module1.service.impl.PersonalInfoServiceImpl(56) - start to update personalInfo to db
+"DEBUG 2016-01-07 16:12:21 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:12:21 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7002f015] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:12:21 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1613dac8] will not be managed by Spring
+"DEBUG 2016-01-07 16:12:21 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==>  Preparing: update gaohan_personal.personal_info SET age = ? where id = ? 
+"DEBUG 2016-01-07 16:12:21 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==> Parameters: 100(Integer), 1(Long)
+"DEBUG 2016-01-07 16:12:21 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - <==    Updates: 1
+"DEBUG 2016-01-07 16:12:21 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7002f015]
+"INFO 2016-01-07 16:12:21 n.biz.module1.service.impl.PersonalInfoServiceImpl(58) - update personalInfo,personalInfoVo:PersonalInfoVo{id=1, name='null', age=100, sex=null, hobbies='null'},effectCount:1
+"DEBUG 2016-01-07 16:12:21 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: java.lang.NullPointerException
+"ERROR 2016-01-07 16:12:21 com.gaohan.web.exception.HandlerExceptionResolver (29) - 异常捕获:
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:1970)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:112)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:102)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:242)
+	at org.springframework.cache.interceptor.ExpressionEvaluator.key(ExpressionEvaluator.java:115)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContext.generateKey(CacheAspectSupport.java:621)
+	at org.springframework.cache.interceptor.CacheAspectSupport.performCacheEvict(CacheAspectSupport.java:406)
+	at org.springframework.cache.interceptor.CacheAspectSupport.processCacheEvicts(CacheAspectSupport.java:392)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:362)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:299)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$7c8925ac.updateSelective(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(PersonalInfoController.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-07 16:12:48 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:12:48 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/del],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.delPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:12:48 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"INFO 2016-01-07 16:12:48 n.biz.module1.service.impl.PersonalInfoServiceImpl(56) - start to update personalInfo to db
+"DEBUG 2016-01-07 16:12:48 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:12:48 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3df2ef1f] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:12:48 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@1613dac8] will not be managed by Spring
+"DEBUG 2016-01-07 16:12:48 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==>  Preparing: update gaohan_personal.personal_info SET age = ? where id = ? 
+"DEBUG 2016-01-07 16:12:48 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==> Parameters: 100(Integer), 1(Long)
+"DEBUG 2016-01-07 16:12:48 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - <==    Updates: 1
+"DEBUG 2016-01-07 16:12:48 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3df2ef1f]
+"INFO 2016-01-07 16:12:48 n.biz.module1.service.impl.PersonalInfoServiceImpl(58) - update personalInfo,personalInfoVo:PersonalInfoVo{id=1, name='null', age=100, sex=null, hobbies='null'},effectCount:1
+"DEBUG 2016-01-07 16:12:48 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: java.lang.NullPointerException
+"ERROR 2016-01-07 16:12:48 com.gaohan.web.exception.HandlerExceptionResolver (29) - 异常捕获:
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:1970)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:112)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:102)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:242)
+	at org.springframework.cache.interceptor.ExpressionEvaluator.key(ExpressionEvaluator.java:115)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContext.generateKey(CacheAspectSupport.java:621)
+	at org.springframework.cache.interceptor.CacheAspectSupport.performCacheEvict(CacheAspectSupport.java:406)
+	at org.springframework.cache.interceptor.CacheAspectSupport.processCacheEvicts(CacheAspectSupport.java:392)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:362)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:299)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$7c8925ac.updateSelective(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(PersonalInfoController.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-07 16:14:36 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-07 16:14:36 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Thu Jan 07 16:14:36 CST 2016]; root of context hierarchy
+"INFO 2016-01-07 16:14:37 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-07 16:14:38 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-07 16:14:38 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-redis.xml]
+"INFO 2016-01-07 16:14:39 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-07 16:14:39 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Thu Jan 07 16:14:36 CST 2016]; root of context hierarchy
+"INFO 2016-01-07 16:14:40 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-07 16:14:40 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-07 16:14:40 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-07 16:14:40 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2016-01-07 16:14:41 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 5342 ms
+"INFO 2016-01-07 16:14:42 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2016-01-07 16:14:42 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Jan 07 16:14:42 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-07 16:14:42 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2016-01-07 16:14:42 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2016-01-07 16:14:42 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:14:42 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/del],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.delPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:14:42 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"DEBUG 2016-01-07 16:14:42 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2016-01-07 16:14:42 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2016-01-07 16:14:42 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2016-01-07 16:14:42 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2016-01-07 16:14:42 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2016-01-07 16:14:43 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy38
+"DEBUG 2016-01-07 16:14:43 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2016-01-07 16:14:43 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2016-01-07 16:14:43 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Jan 07 16:14:42 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-07 16:14:44 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Jan 07 16:14:42 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-07 16:14:44 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2016-01-07 16:14:44 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2016-01-07 16:14:44 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2016-01-07 16:14:44 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2016-01-07 16:14:44 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 2803 ms
+"INFO 2016-01-07 16:15:01 n.biz.module1.service.impl.PersonalInfoServiceImpl(56) - start to update personalInfo to db
+"DEBUG 2016-01-07 16:15:01 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:15:01 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21633adb] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:15:01 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@741dcd76] will not be managed by Spring
+"DEBUG 2016-01-07 16:15:01 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==>  Preparing: update gaohan_personal.personal_info SET age = ? where id = ? 
+"DEBUG 2016-01-07 16:15:01 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==> Parameters: 100(Integer), 1(Long)
+"DEBUG 2016-01-07 16:15:01 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - <==    Updates: 1
+"DEBUG 2016-01-07 16:15:01 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20000} enter cache
+"DEBUG 2016-01-07 16:15:01 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@21633adb]
+"INFO 2016-01-07 16:15:01 n.biz.module1.service.impl.PersonalInfoServiceImpl(58) - update personalInfo,personalInfoVo:PersonalInfoVo{id=1, name='null', age=100, sex=null, hobbies='null'},effectCount:1
+"INFO 2016-01-07 16:15:01 com.gaohan.common.service.cache.redis.RedisCache  (155) - del cache,key:p_info.1
+"INFO 2016-01-07 16:15:37 n.biz.module1.service.impl.PersonalInfoServiceImpl(35) - start to query personalInfo from db
+"DEBUG 2016-01-07 16:15:37 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:15:37 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a05b042] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:15:37 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@741dcd76] will not be managed by Spring
+"DEBUG 2016-01-07 16:15:37 apper.PersonalInfoDoMapperExt.selectVoByPrimaryKey(139) - ==>  Preparing: select id as id, name as name, sex as sex, age as age, hobbies as hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-07 16:15:37 apper.PersonalInfoDoMapperExt.selectVoByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-07 16:15:37 apper.PersonalInfoDoMapperExt.selectVoByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-07 16:15:37 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20001} enter cache
+"DEBUG 2016-01-07 16:15:37 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3a05b042]
+"INFO 2016-01-07 16:15:37 n.biz.module1.service.impl.PersonalInfoServiceImpl(39) - query personalInfo successfully,result:PersonalInfoVo{id=1, name='高翰', age=100, sex=1, hobbies='打球'}
+"INFO 2016-01-07 16:15:37 com.gaohan.common.service.cache.redis.RedisCache  (114) - setex cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAZHQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=,result:OK
+"INFO 2016-01-07 16:15:50 n.biz.module1.service.impl.PersonalInfoServiceImpl(56) - start to update personalInfo to db
+"DEBUG 2016-01-07 16:15:50 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:15:50 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@560b10fd] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:15:50 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@741dcd76] will not be managed by Spring
+"DEBUG 2016-01-07 16:15:50 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==>  Preparing: update gaohan_personal.personal_info SET age = ? where id = ? 
+"DEBUG 2016-01-07 16:15:50 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - ==> Parameters: 100(Integer), 1(Long)
+"DEBUG 2016-01-07 16:15:50 r.PersonalInfoDoMapper.updateByPrimaryKeySelective(139) - <==    Updates: 1
+"DEBUG 2016-01-07 16:15:50 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@560b10fd]
+"INFO 2016-01-07 16:15:50 n.biz.module1.service.impl.PersonalInfoServiceImpl(58) - update personalInfo,personalInfoVo:PersonalInfoVo{id=1, name='null', age=100, sex=null, hobbies='null'},effectCount:1
+"INFO 2016-01-07 16:15:50 com.gaohan.common.service.cache.redis.RedisCache  (155) - del cache,key:p_info.1
+"INFO 2016-01-07 16:16:01 n.biz.module1.service.impl.PersonalInfoServiceImpl(35) - start to query personalInfo from db
+"DEBUG 2016-01-07 16:16:01 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:16:01 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@513fed41] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:16:01 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@741dcd76] will not be managed by Spring
+"DEBUG 2016-01-07 16:16:01 apper.PersonalInfoDoMapperExt.selectVoByPrimaryKey(139) - ==>  Preparing: select id as id, name as name, sex as sex, age as age, hobbies as hobbies from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-07 16:16:01 apper.PersonalInfoDoMapperExt.selectVoByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-07 16:16:01 apper.PersonalInfoDoMapperExt.selectVoByPrimaryKey(139) - <==      Total: 1
+"DEBUG 2016-01-07 16:16:01 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@513fed41]
+"INFO 2016-01-07 16:16:01 n.biz.module1.service.impl.PersonalInfoServiceImpl(39) - query personalInfo successfully,result:PersonalInfoVo{id=1, name='高翰', age=100, sex=1, hobbies='打球'}
+"INFO 2016-01-07 16:16:01 com.gaohan.common.service.cache.redis.RedisCache  (114) - setex cache,key:p_info.1,value:rO0ABXNyAChjb20uZ2FvaGFuLmJpei5tb2R1bGUxLnZvLlBlcnNvbmFsSW5mb1ZvG/YqjUmdMtMC
+AAVMAANhZ2V0ABNMamF2YS9sYW5nL0ludGVnZXI7TAAHaG9iYmllc3QAEkxqYXZhL2xhbmcvU3Ry
+aW5nO0wAAmlkdAAQTGphdmEvbGFuZy9Mb25nO0wABG5hbWVxAH4AAkwAA3NleHEAfgABeHBzcgAR
+amF2YS5sYW5nLkludGVnZXIS4qCk94GHOAIAAUkABXZhbHVleHIAEGphdmEubGFuZy5OdW1iZXKG
+rJUdC5TgiwIAAHhwAAAAZHQABuaJk+eQg3NyAA5qYXZhLmxhbmcuTG9uZzuL5JDMjyPfAgABSgAF
+dmFsdWV4cQB+AAYAAAAAAAAAAXQABumrmOe/sHNxAH4ABQAAAAE=,result:OK
+"INFO 2016-01-07 16:16:15 n.biz.module1.service.impl.PersonalInfoServiceImpl(47) - start to delete personalInfo in db
+"DEBUG 2016-01-07 16:16:15 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:16:15 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c1bb7f6] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:16:15 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@741dcd76] will not be managed by Spring
+"DEBUG 2016-01-07 16:16:15 le1.mapper.PersonalInfoDoMapper.deleteByPrimaryKey(139) - ==>  Preparing: delete from gaohan_personal.personal_info where id = ? 
+"DEBUG 2016-01-07 16:16:15 le1.mapper.PersonalInfoDoMapper.deleteByPrimaryKey(139) - ==> Parameters: 1(Long)
+"DEBUG 2016-01-07 16:16:15 le1.mapper.PersonalInfoDoMapper.deleteByPrimaryKey(139) - <==    Updates: 1
+"DEBUG 2016-01-07 16:16:15 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20002} enter cache
+"DEBUG 2016-01-07 16:16:15 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c1bb7f6]
+"INFO 2016-01-07 16:16:15 n.biz.module1.service.impl.PersonalInfoServiceImpl(49) - delete personalInfo,id:1,effectCount:1
+"INFO 2016-01-07 16:16:15 com.gaohan.common.service.cache.redis.RedisCache  (155) - del cache,key:p_info.1
+"INFO 2016-01-07 16:23:22 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-07 16:23:22 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Thu Jan 07 16:23:22 CST 2016]; root of context hierarchy
+"INFO 2016-01-07 16:23:23 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-07 16:23:24 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-07 16:23:24 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-redis.xml]
+"INFO 2016-01-07 16:23:24 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-07 16:23:25 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Thu Jan 07 16:23:22 CST 2016]; root of context hierarchy
+"INFO 2016-01-07 16:23:25 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-07 16:23:25 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-07 16:23:26 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-07 16:23:26 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2016-01-07 16:23:27 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 4493 ms
+"INFO 2016-01-07 16:23:27 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2016-01-07 16:23:27 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Jan 07 16:23:27 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-07 16:23:27 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2016-01-07 16:23:27 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2016-01-07 16:23:27 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:23:27 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/del],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.delPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:23:27 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/insert],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"INFO 2016-01-07 16:23:27 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"DEBUG 2016-01-07 16:23:27 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2016-01-07 16:23:27 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2016-01-07 16:23:27 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2016-01-07 16:23:27 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2016-01-07 16:23:27 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2016-01-07 16:23:27 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy39
+"DEBUG 2016-01-07 16:23:27 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2016-01-07 16:23:27 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2016-01-07 16:23:28 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Jan 07 16:23:27 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-07 16:23:28 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Jan 07 16:23:27 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-07 16:23:29 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2016-01-07 16:23:29 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2016-01-07 16:23:29 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2016-01-07 16:23:29 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2016-01-07 16:23:29 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 2108 ms
+"INFO 2016-01-07 16:26:12 n.biz.module1.service.impl.PersonalInfoServiceImpl(68) - start to insert personalInfo to db
+"DEBUG 2016-01-07 16:26:12 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:26:12 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33f8e060] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:26:12 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4bdd5051] will not be managed by Spring
+"DEBUG 2016-01-07 16:26:12 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - ==>  Preparing: insert into gaohan_personal.personal_info ( name, age, sex, hobbies ) values ( ?, ?, ?, ? ) 
+"DEBUG 2016-01-07 16:26:12 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - ==> Parameters: 高高(String), 100(Integer), 0(Integer), 无聊(String)
+"DEBUG 2016-01-07 16:26:12 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20000} enter cache
+"DEBUG 2016-01-07 16:26:12 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33f8e060]
+"INFO 2016-01-07 16:26:12 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [org/springframework/jdbc/support/sql-error-codes.xml]
+"INFO 2016-01-07 16:26:12 .springframework.jdbc.support.SQLErrorCodesFactory(126) - SQLErrorCodes loaded: [DB2, Derby, H2, HSQL, Informix, MS-SQL, MySQL, Oracle, PostgreSQL, Sybase, Hana]
+"DEBUG 2016-01-07 16:26:12 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.gaohan.dal.module1.mapper.PersonalInfoDoMapper.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: insert into gaohan_personal.personal_info      ( name,                       age,                       sex,                       hobbies )       values ( ?,                       ?,                       ?,                       ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; SQL []; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+"ERROR 2016-01-07 16:26:12 com.gaohan.web.exception.HandlerExceptionResolver (29) - 异常捕获:
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.gaohan.dal.module1.mapper.PersonalInfoDoMapper.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: insert into gaohan_personal.personal_info      ( name,                       age,                       sex,                       hobbies )       values ( ?,                       ?,                       ?,                       ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; SQL []; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy32.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy36.insertSelective(Unknown Source)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl.insertSelective(PersonalInfoServiceImpl.java:69)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$FastClassBySpringCGLIB$$ba2b5657.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.cache.interceptor.CacheInterceptor$1.invoke(CacheInterceptor.java:52)
+	at org.springframework.cache.interceptor.CacheAspectSupport.invokeOperation(CacheAspectSupport.java:317)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:350)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:299)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$b21796a4.insertSelective(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(PersonalInfoController.java:66)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.sql.SQLException: Field 'id' doesn't have a default value
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:998)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1193)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:131)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:62)
+	at com.sun.proxy.$Proxy44.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 61 more
+"DEBUG 2016-01-07 16:26:25 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: com.gaohan.exception.BizException: 参数为空, id不能为空
+"WARN 2016-01-07 16:26:25 com.gaohan.web.exception.HandlerExceptionResolver (27) - 异常捕获:
+com.gaohan.exception.BizException: 参数为空, id不能为空
+	at com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(PersonalInfoController.java:64)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-07 16:28:49 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:28:49 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/del],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.delPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:28:49 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/insert],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"INFO 2016-01-07 16:28:49 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"INFO 2016-01-07 16:28:49 n.biz.module1.service.impl.PersonalInfoServiceImpl(68) - start to insert personalInfo to db
+"DEBUG 2016-01-07 16:28:49 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:28:49 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56a1ec39] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:28:49 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4bdd5051] will not be managed by Spring
+"DEBUG 2016-01-07 16:28:49 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - ==>  Preparing: insert into gaohan_personal.personal_info ( name, age, sex, hobbies ) values ( ?, ?, ?, ? ) 
+"DEBUG 2016-01-07 16:28:49 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - ==> Parameters: 高高(String), 100(Integer), 0(Integer), 无聊(String)
+"DEBUG 2016-01-07 16:28:49 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56a1ec39]
+"DEBUG 2016-01-07 16:28:49 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.gaohan.dal.module1.mapper.PersonalInfoDoMapper.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: insert into gaohan_personal.personal_info      ( name,                       age,                       sex,                       hobbies )       values ( ?,                       ?,                       ?,                       ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; SQL []; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+"ERROR 2016-01-07 16:28:49 com.gaohan.web.exception.HandlerExceptionResolver (29) - 异常捕获:
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.gaohan.dal.module1.mapper.PersonalInfoDoMapper.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: insert into gaohan_personal.personal_info      ( name,                       age,                       sex,                       hobbies )       values ( ?,                       ?,                       ?,                       ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; SQL []; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy32.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy36.insertSelective(Unknown Source)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl.insertSelective(PersonalInfoServiceImpl.java:69)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$FastClassBySpringCGLIB$$ba2b5657.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.cache.interceptor.CacheInterceptor$1.invoke(CacheInterceptor.java:52)
+	at org.springframework.cache.interceptor.CacheAspectSupport.invokeOperation(CacheAspectSupport.java:317)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:350)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:299)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$b21796a4.insertSelective(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(PersonalInfoController.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.sql.SQLException: Field 'id' doesn't have a default value
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:998)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1193)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:131)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:62)
+	at com.sun.proxy.$Proxy44.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 61 more
+"INFO 2016-01-07 16:32:41 n.biz.module1.service.impl.PersonalInfoServiceImpl(68) - start to insert personalInfo to db
+"DEBUG 2016-01-07 16:32:41 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:32:41 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5543d915] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:32:41 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4bdd5051] will not be managed by Spring
+"DEBUG 2016-01-07 16:32:41 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - ==>  Preparing: insert into gaohan_personal.personal_info ( name, age, sex, hobbies ) values ( ?, ?, ?, ? ) 
+"DEBUG 2016-01-07 16:32:41 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - ==> Parameters: 高高(String), 100(Integer), 0(Integer), 无聊(String)
+"DEBUG 2016-01-07 16:32:41 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5543d915]
+"DEBUG 2016-01-07 16:32:41 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.gaohan.dal.module1.mapper.PersonalInfoDoMapper.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: insert into gaohan_personal.personal_info      ( name,                       age,                       sex,                       hobbies )       values ( ?,                       ?,                       ?,                       ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; SQL []; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+"ERROR 2016-01-07 16:32:41 com.gaohan.web.exception.HandlerExceptionResolver (29) - 异常捕获:
+org.springframework.dao.DataIntegrityViolationException: 
+### Error updating database.  Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+### The error may involve com.gaohan.dal.module1.mapper.PersonalInfoDoMapper.insertSelective-Inline
+### The error occurred while setting parameters
+### SQL: insert into gaohan_personal.personal_info      ( name,                       age,                       sex,                       hobbies )       values ( ?,                       ?,                       ?,                       ? )
+### Cause: java.sql.SQLException: Field 'id' doesn't have a default value
+; SQL []; Field 'id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'id' doesn't have a default value
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:243)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:371)
+	at com.sun.proxy.$Proxy32.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:240)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:51)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:52)
+	at com.sun.proxy.$Proxy36.insertSelective(Unknown Source)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl.insertSelective(PersonalInfoServiceImpl.java:69)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$FastClassBySpringCGLIB$$ba2b5657.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:717)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.cache.interceptor.CacheInterceptor$1.invoke(CacheInterceptor.java:52)
+	at org.springframework.cache.interceptor.CacheAspectSupport.invokeOperation(CacheAspectSupport.java:317)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:350)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:299)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$b21796a4.insertSelective(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(PersonalInfoController.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+Caused by: java.sql.SQLException: Field 'id' doesn't have a default value
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:998)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3847)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3783)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2447)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2594)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2545)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1901)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1193)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2931)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_execute(FilterEventAdapter.java:440)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_execute(FilterChainImpl.java:2929)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.execute(PreparedStatementProxyImpl.java:131)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.ibatis.logging.jdbc.PreparedStatementLogger.invoke(PreparedStatementLogger.java:62)
+	at com.sun.proxy.$Proxy44.execute(Unknown Source)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:44)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:69)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:48)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:105)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:71)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:152)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:358)
+	... 61 more
+"INFO 2016-01-07 16:36:21 n.biz.module1.service.impl.PersonalInfoServiceImpl(68) - start to insert personalInfo to db
+"DEBUG 2016-01-07 16:36:21 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:36:21 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31afed0c] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:36:21 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4bdd5051] will not be managed by Spring
+"DEBUG 2016-01-07 16:36:21 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - ==>  Preparing: insert into gaohan_personal.personal_info ( name, age, sex, hobbies ) values ( ?, ?, ?, ? ) 
+"DEBUG 2016-01-07 16:36:21 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - ==> Parameters: 高高(String), 100(Integer), 0(Integer), 无聊(String)
+"DEBUG 2016-01-07 16:36:21 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - <==    Updates: 1
+"DEBUG 2016-01-07 16:36:21 per.PersonalInfoDoMapper.insertSelective!selectKey(139) - ==>  Preparing: SELECT LAST_INSERT_ID() 
+"DEBUG 2016-01-07 16:36:21 per.PersonalInfoDoMapper.insertSelective!selectKey(139) - ==> Parameters: 
+"DEBUG 2016-01-07 16:36:22 per.PersonalInfoDoMapper.insertSelective!selectKey(139) - <==      Total: 1
+"DEBUG 2016-01-07 16:36:22 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20001} enter cache
+"DEBUG 2016-01-07 16:36:22 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@31afed0c]
+"INFO 2016-01-07 16:36:22 n.biz.module1.service.impl.PersonalInfoServiceImpl(70) - insert personalInfo,personalInfoVo:PersonalInfoVo{id=null, name='高高', age=100, sex=0, hobbies='无聊'},effectCount:1
+"DEBUG 2016-01-07 16:36:22 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: java.lang.NullPointerException
+"ERROR 2016-01-07 16:36:22 com.gaohan.web.exception.HandlerExceptionResolver (29) - 异常捕获:
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:1970)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:112)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:129)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:242)
+	at org.springframework.cache.interceptor.ExpressionEvaluator.key(ExpressionEvaluator.java:115)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContext.generateKey(CacheAspectSupport.java:621)
+	at org.springframework.cache.interceptor.CacheAspectSupport.generateKey(CacheAspectSupport.java:479)
+	at org.springframework.cache.interceptor.CacheAspectSupport.collectPutRequests(CacheAspectSupport.java:453)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:354)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:299)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$b21796a4.insertSelective(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(PersonalInfoController.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-07 16:57:19 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:57:19 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/del],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.delPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:57:19 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/insert],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"INFO 2016-01-07 16:57:19 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"INFO 2016-01-07 16:57:20 n.biz.module1.service.impl.PersonalInfoServiceImpl(66) - start to insert personalInfo to db
+"DEBUG 2016-01-07 16:57:20 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:57:20 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49ebe1d9] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:57:20 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@4bdd5051] will not be managed by Spring
+"DEBUG 2016-01-07 16:57:20 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - ==>  Preparing: insert into gaohan_personal.personal_info ( name, age, sex, hobbies ) values ( ?, ?, ?, ? ) 
+"DEBUG 2016-01-07 16:57:20 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - ==> Parameters: 高高(String), 100(Integer), 0(Integer), 无聊(String)
+"DEBUG 2016-01-07 16:57:20 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - <==    Updates: 1
+"DEBUG 2016-01-07 16:57:20 per.PersonalInfoDoMapper.insertSelective!selectKey(139) - ==>  Preparing: SELECT LAST_INSERT_ID() 
+"DEBUG 2016-01-07 16:57:20 per.PersonalInfoDoMapper.insertSelective!selectKey(139) - ==> Parameters: 
+"DEBUG 2016-01-07 16:57:20 per.PersonalInfoDoMapper.insertSelective!selectKey(139) - <==      Total: 1
+"DEBUG 2016-01-07 16:57:20 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49ebe1d9]
+"INFO 2016-01-07 16:57:20 n.biz.module1.service.impl.PersonalInfoServiceImpl(68) - insert personalInfo,personalInfoVo:PersonalInfoVo{id=null, name='高高', age=100, sex=0, hobbies='无聊'},effectCount:1
+"DEBUG 2016-01-07 16:57:20 com.gaohan.web.exception.HandlerExceptionResolver (134) - Resolving exception from handler [public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)]: java.lang.NullPointerException
+"ERROR 2016-01-07 16:57:20 com.gaohan.web.exception.HandlerExceptionResolver (29) - 异常捕获:
+java.lang.NullPointerException
+	at java.lang.String.concat(String.java:1970)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.expression.spel.support.ReflectiveMethodExecutor.execute(ReflectiveMethodExecutor.java:112)
+	at org.springframework.expression.spel.ast.MethodReference.getValueInternal(MethodReference.java:102)
+	at org.springframework.expression.spel.ast.MethodReference.access$000(MethodReference.java:49)
+	at org.springframework.expression.spel.ast.MethodReference$MethodValueRef.getValue(MethodReference.java:342)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:88)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:120)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:242)
+	at org.springframework.cache.interceptor.ExpressionEvaluator.key(ExpressionEvaluator.java:115)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CacheOperationContext.generateKey(CacheAspectSupport.java:621)
+	at org.springframework.cache.interceptor.CacheAspectSupport.generateKey(CacheAspectSupport.java:479)
+	at org.springframework.cache.interceptor.CacheAspectSupport.collectPutRequests(CacheAspectSupport.java:453)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:354)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:299)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:653)
+	at com.gaohan.biz.module1.service.impl.PersonalInfoServiceImpl$$EnhancerBySpringCGLIB$$b21796a4.insertSelective(<generated>)
+	at com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(PersonalInfoController.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:221)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:110)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandleMethod(RequestMappingHandlerAdapter.java:776)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:705)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:959)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:893)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:966)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:868)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:842)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:812)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1669)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:85)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.__doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:311)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:544)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:744)
+"INFO 2016-01-07 16:58:23 org.springframework.web.context.ContextLoader     (285) - Root WebApplicationContext: initialization started
+"INFO 2016-01-07 16:58:23 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing Root WebApplicationContext: startup date [Thu Jan 07 16:58:23 CST 2016]; root of context hierarchy
+"INFO 2016-01-07 16:58:24 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-context.xml]
+"INFO 2016-01-07 16:58:24 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mybatis.xml]
+"INFO 2016-01-07 16:58:24 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-redis.xml]
+"INFO 2016-01-07 16:58:25 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"DEBUG 2016-01-07 16:58:26 com.gaohan.util.SpringContextHolder               (56) - [1]注入ApplicationContext到SpringContextHolder:{}Root WebApplicationContext: startup date [Thu Jan 07 16:58:23 CST 2016]; root of context hierarchy
+"INFO 2016-01-07 16:58:26 com.alibaba.druid.pool.DruidDataSource            (669) - {dataSource-1} inited
+"DEBUG 2016-01-07 16:58:26 org.mybatis.spring.SqlSessionFactoryBean          (362) - Property 'configLocation' not specified, using default MyBatis Configuration
+"DEBUG 2016-01-07 16:58:27 org.mybatis.spring.SqlSessionFactoryBean          (383) - Scanned package: 'com.gaohan.dal' for aliases
+"DEBUG 2016-01-07 16:58:27 org.mybatis.spring.SqlSessionFactoryBean          (477) - Property 'mapperLocations' was not specified or no matching resources found
+"INFO 2016-01-07 16:58:28 org.springframework.web.context.ContextLoader     (325) - Root WebApplicationContext: initialization completed in 5007 ms
+"INFO 2016-01-07 16:58:28 org.springframework.web.servlet.DispatcherServlet (484) - FrameworkServlet 'dispatcher': initialization started
+"INFO 2016-01-07 16:58:28 ework.web.context.support.XmlWebApplicationContext(510) - Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Jan 07 16:58:28 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-07 16:58:28 ramework.beans.factory.xml.XmlBeanDefinitionReader(317) - Loading XML bean definitions from class path resource [spring-mvc.xml]
+"INFO 2016-01-07 16:58:28 ry.annotation.AutowiredAnnotationBeanPostProcessor(153) - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+"INFO 2016-01-07 16:58:29 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/get],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<com.gaohan.biz.module1.vo.PersonalInfoVo> com.gaohan.web.controller.PersonalInfoController.getPersonalInfo(java.lang.Long)
+"INFO 2016-01-07 16:58:29 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/insert],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.insertPersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"INFO 2016-01-07 16:58:29 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/update],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.updatePersonalInfo(com.gaohan.biz.module1.vo.PersonalInfoVo)
+"INFO 2016-01-07 16:58:29 mvc.method.annotation.RequestMappingHandlerMapping(217) - Mapped "{[/personal/info/del],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public com.gaohan.web.result.WebResult<java.lang.Boolean> com.gaohan.web.controller.PersonalInfoController.delPersonalInfo(java.lang.Long)
+"DEBUG 2016-01-07 16:58:29 org.jboss.logging                                 (29) - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+"INFO 2016-01-07 16:58:29 org.hibernate.validator.internal.util.Version     (27) - HV000001: Hibernate Validator 5.1.3.Final
+"DEBUG 2016-01-07 16:58:29 nternal.engine.resolver.DefaultTraversableResolver(80) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+"DEBUG 2016-01-07 16:58:29 ernate.validator.internal.engine.ConfigurationImpl(123) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+"DEBUG 2016-01-07 16:58:29 ernate.validator.internal.engine.ConfigurationImpl(145) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+"DEBUG 2016-01-07 16:58:29 ernate.validator.internal.engine.ConfigurationImpl(159) - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy38
+"DEBUG 2016-01-07 16:58:29 bernate.validator.internal.xml.ValidationXmlParser(91) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+"DEBUG 2016-01-07 16:58:29 bernate.validator.internal.xml.ValidationXmlParser(98) - No META-INF/validation.xml found. Using annotation based configuration only.
+"INFO 2016-01-07 16:58:29 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Jan 07 16:58:28 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-07 16:58:30 mvc.method.annotation.RequestMappingHandlerAdapter(517) - Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Thu Jan 07 16:58:28 CST 2016]; parent: Root WebApplicationContext
+"INFO 2016-01-07 16:58:30 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+"INFO 2016-01-07 16:58:30 mework.web.servlet.handler.SimpleUrlHandlerMapping(314) - Mapped URL path [/public/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#1'
+"INFO 2016-01-07 16:58:30 ework.web.servlet.view.velocity.VelocityConfigurer(221) - Loading Velocity config from [class path resource [velocity.properties]]
+"INFO 2016-01-07 16:58:30 ework.web.servlet.view.velocity.VelocityConfigurer(140) - ClasspathResourceLoader with name 'springMacro' added to configured VelocityEngine
+"INFO 2016-01-07 16:58:30 org.springframework.web.servlet.DispatcherServlet (503) - FrameworkServlet 'dispatcher': initialization completed in 2209 ms
+"INFO 2016-01-07 16:59:09 n.biz.module1.service.impl.PersonalInfoServiceImpl(66) - start to insert personalInfo to db
+"DEBUG 2016-01-07 16:59:09 org.mybatis.spring.SqlSessionUtils                (104) - Creating a new SqlSession
+"DEBUG 2016-01-07 16:59:09 org.mybatis.spring.SqlSessionUtils                (140) - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e2eaeed] was not registered for synchronization because synchronization is not active
+"DEBUG 2016-01-07 16:59:09 ybatis.spring.transaction.SpringManagedTransaction(86) - JDBC Connection [com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl@7e0d6c48] will not be managed by Spring
+"DEBUG 2016-01-07 16:59:09 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - ==>  Preparing: insert into gaohan_personal.personal_info ( name, age, sex, hobbies ) values ( ?, ?, ?, ? ) 
+"DEBUG 2016-01-07 16:59:09 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - ==> Parameters: 高高(String), 100(Integer), 0(Integer), 无聊(String)
+"DEBUG 2016-01-07 16:59:09 odule1.mapper.PersonalInfoDoMapper.insertSelective(139) - <==    Updates: 1
+"DEBUG 2016-01-07 16:59:09 per.PersonalInfoDoMapper.insertSelective!selectKey(139) - ==>  Preparing: SELECT LAST_INSERT_ID() 
+"DEBUG 2016-01-07 16:59:09 per.PersonalInfoDoMapper.insertSelective!selectKey(139) - ==> Parameters: 
+"DEBUG 2016-01-07 16:59:09 per.PersonalInfoDoMapper.insertSelective!selectKey(139) - <==      Total: 1
+"DEBUG 2016-01-07 16:59:09 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20001} enter cache
+"DEBUG 2016-01-07 16:59:09 com.alibaba.druid.pool.PreparedStatementPool      (123) - {conn-10005, pstmt-20000} enter cache
+"DEBUG 2016-01-07 16:59:09 org.mybatis.spring.SqlSessionUtils                (168) - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e2eaeed]
+"INFO 2016-01-07 16:59:09 n.biz.module1.service.impl.PersonalInfoServiceImpl(68) - insert personalInfo,personalInfoVo:PersonalInfoVo{id=null, name='高高', age=100, sex=0, hobbies='无聊'},effectCount:1

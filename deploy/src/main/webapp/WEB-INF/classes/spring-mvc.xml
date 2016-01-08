@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <!--<context:annotation-config/>標籤根本可以移除掉，因為被包含進去了-->
+    <!--主要为@Service等-->
+    <context:component-scan base-package="com.gaohan.web"/>
+    <!--自动注册DefaultAnnotationHandlerMapping与AnnotationMethodHandlerAdapter 两个bean,是spring MVC为@Controllers分发请求所必须的。-->
+    <!--@Required, @Autowired, @PostConstruct, and so on.-->
+    <mvc:annotation-driven>
+        <mvc:message-converters register-defaults="true">
+            <!-- 避免IE执行AJAX时,返回JSON出现下载文件 -->
+            <bean id="fastJsonHttpMessageConverter"
+                  class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">
+                <property name="supportedMediaTypes">
+                    <list>
+                        <value>application/json;charset=UTF-8</value>
+                    </list>
+                </property>
+            </bean>
+        </mvc:message-converters>
+    </mvc:annotation-driven>
+    <!--<aop:aspectj-autoproxy/>有一个proxy-target-class属性，默认为false，表示使用jdk动态代理织入增强，
+    当配为<aop:aspectj-autoproxypoxy-target-class="true"/>时，表示使用CGLib动态代理技术织入增强。不过即使
+    proxy-target-class设置为false，如果目标类没有声明接口，则spring将自动使用CGLib动态代理。 -->
+    <aop:aspectj-autoproxy/>
+
+    <!--  all resources inside folder src/main/webapp/resources are mapped so they can be refered to inside JSP files
+        (see header.jsp for more details) 指定静态资源路径-->
+    <mvc:resources mapping="/resources/**" location="/resources/"/>
+    <mvc:resources mapping="/public/**" location="/WEB-INF/classes/res/"/>
+    <!-- serve static resources (*.html, ...) from src/main/webapp/ -->
+    <!--<mvc:default-servlet-handler/>-->
+    <!--<mvc:interceptors>
+        <bean id="customStatInterceptor" class="com.gaohan.web.interceptor.TestInterceptor">
+        </bean>
+    </mvc:interceptors>-->
+
+    <bean id="velocityConfig" class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
+        <property name="resourceLoaderPath" value="/WEB-INF/template/"/>
+        <property name="configLocation" value="classpath:velocity.properties"/>
+    </bean>
+
+
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+        <property name="defaultContentType" value="text/html"/>
+        <property name="mediaTypes">
+            <map>
+                <entry key="html" value="text/html"/>
+                <entry key="json" value="application/json"/>
+                <entry key="xml" value="application/xml"/>
+                <entry key="excel" value="application/excel"/>
+                <entry key="pdf" value="application/pdf"/>
+            </map>
+        </property>
+        <property name="viewResolvers">
+            <list>
+                <bean
+                        class="org.springframework.web.servlet.view.velocity.VelocityLayoutViewResolver">
+                    <property name="prefix" value="/"/>
+                    <!-- 视图文件的前缀，即存放的路径 -->
+                    <property name="suffix" value=".vm"/>
+                    <!-- 视图文件的后缀名 -->
+                    <property name="toolboxConfigLocation" value="/WEB-INF/tools.xml"/>
+                    <!--toolbox配置文件路径-->
+                    <property name="dateToolAttribute" value="date"/>
+                    <!--日期函数名称-->
+                    <property name="numberToolAttribute" value="number"/>
+                    <!--数字函数名称-->
+                    <property name="contentType" value="text/html;charset=UTF-8"/>
+                    <property name="exposeSpringMacroHelpers" value="true"/>
+                    <!--是否使用spring对宏定义的支持-->
+                    <property name="exposeRequestAttributes" value="true"/>
+                    <!--是否开放request属性-->
+                    <property name="requestContextAttribute" value="req"/>
+                    <!--request属性引用名称-->
+                    <!--指定layout文件-->
+                    <property name="layoutUrl" value="layout/default.vm"/>
+                </bean>
+
+            </list>
+        </property>
+        <property name="defaultViews">
+            <list>
+                <bean class="org.springframework.web.servlet.view.json.MappingJackson2JsonView">
+                    <property name="prettyPrint" value="true"/>
+                    <property name="contentType" value="text/plain"/>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <!--  for upload -->
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" >
+        <property name="defaultEncoding" value="UTF-8" />
+    </bean>
+
+    <bean id="handlerExceptionResolver" class="com.gaohan.web.exception.HandlerExceptionResolver"/>
+</beans>
